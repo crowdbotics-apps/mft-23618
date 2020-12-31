@@ -370,73 +370,143 @@ class BookingTransaction(models.Model):
     )
     dropoff41 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff41",
     )
     dropoff42 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff42",
     )
     dropoff43 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff43",
     )
     dropoff44 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff44",
     )
     dropoff45 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff45",
     )
     dropoff46 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff46",
     )
     dropoff47 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff47",
     )
     dropoff48 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff48",
     )
     dropoff49 = models.ForeignKey(
         "location.MapLocation",
-        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        on_delete=models.SET_NULL,
         related_name="bookingtransaction_dropoff49",
     )
     dropoff50 = models.ForeignKey(
         "location.MapLocation",
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name="bookingtransaction_dropoff50",
+    )
+    dropoff51 = models.ForeignKey(
+        "location.MapLocation",
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="bookingtransaction_dropoff50",
+        related_name="bookingtransaction_dropoff51",
+    )
+    dropoff52 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff52",
+    )
+    dropoff53 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff53",
+    )
+    dropoff54 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff54",
+    )
+    dropoff55 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff55",
+    )
+    dropoff56 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff56",
+    )
+    dropoff57 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff57",
+    )
+    dropoff58 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff58",
+    )
+    dropoff59 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff59",
+    )
+    dropoff60 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
+        null=True,
+        blank=True,
+        related_name="bookingtransaction_dropoff60",
     )
 
 
