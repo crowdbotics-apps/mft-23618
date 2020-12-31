@@ -95,6 +95,10 @@ class BookingTransaction(models.Model):
         null=True,
         blank=True,
     )
+    dropoff2 = models.BigIntegerField(
+        null=True,
+        blank=True,
+    )
 
 
 # Create your models here.
