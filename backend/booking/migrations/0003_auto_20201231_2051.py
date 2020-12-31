@@ -7,13 +7,19 @@ import django.db.models.deletion
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('booking', '0002_bookingtransaction_dropoff2'),
+        ("booking", "0002_bookingtransaction_dropoff2"),
     ]
 
     operations = [
         migrations.AlterField(
-            model_name='bookingtransaction',
-            name='dropoff2',
-            field=models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='bookingtransaction_dropoff2', to='location.MapLocation'),
+            model_name="bookingtransaction",
+            name="dropoff2",
+            field=models.ForeignKey(
+                blank=True,
+                null=True,
+                on_delete=django.db.models.deletion.SET_NULL,
+                related_name="bookingtransaction_dropoff2",
+                to="location.MapLocation",
+            ),
         ),
     ]

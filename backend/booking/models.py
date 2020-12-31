@@ -97,10 +97,17 @@ class BookingTransaction(models.Model):
     )
     dropoff2 = models.ForeignKey(
         "location.MapLocation",
+        null=True,
+        blank=True,
+        on_delete=models.SET_NULL,
+        related_name="bookingtransaction_dropoff2",
+    )
+    dropoff3 = models.ForeignKey(
+        "location.MapLocation",
         on_delete=models.SET_NULL,
         null=True,
         blank=True,
-        related_name="bookingtransaction_dropoff2",
+        related_name="bookingtransaction_dropoff3",
     )
 
 
