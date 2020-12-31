@@ -95,9 +95,12 @@ class BookingTransaction(models.Model):
         null=True,
         blank=True,
     )
-    dropoff2 = models.BigIntegerField(
+    dropoff2 = models.ForeignKey(
+        "location.MapLocation",
+        on_delete=models.SET_NULL,
         null=True,
         blank=True,
+        related_name="bookingtransaction_dropoff2",
     )
 
 
